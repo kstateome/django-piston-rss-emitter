@@ -2,6 +2,13 @@
 
 This custom emitter allows you to request django piston api objects in an RSS format.
 
-# Dependencies
-## Django
-## Django-Piston
+## Dependencies
+* Django
+* Django-Piston
+* PyRSS2Gen [http://www.dalkescientific.com/Python/PyRSS2Gen.html]
+
+## Usage
+
+You will need to add emitters.py to your api project and then import it into your handlers file.  From there passing ?format=rss should activate the use of the custom emitter.
+
+
